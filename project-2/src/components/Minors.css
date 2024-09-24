@@ -1,0 +1,64 @@
+/* Define CSS styles for minors section */
+#minors {
+    text-align: start;
+    border-left: 8px;
+    border-left-style: solid;
+    /* border-left-color: orangered; */
+    border-left-color: #f06617;
+    padding: 2em;
+}
+
+/* Define CSS styles for minor header */
+#minor-header {
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+    padding: 1em;
+}
+
+/* Define CSS styles for minor list items */
+.minorsListItem {
+    margin: 1em;
+    border: 3px solid #ddd;
+    border-radius: 15px;
+}
+
+/* Define CSS styles for minor content */
+.minor-content {
+    margin: 1.5em;
+}
+
+/* Define CSS styles for minor courses */
+.minor-content .minor-courses-div {
+    text-align: center;
+}
+
+#minor-courses {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.css-pl8gqh-MuiStack-root, .minor-content .minor-courses-div div {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+}
+
+#minor-courses .minor-course-button:hover {
+    color: white;
+    background-color: #464646;
+}
+
+#minor-courses .minor-course-button {
+    margin: 1em;
+}
+
+/* Define CSS styles for notes */
+.note-div .note {
+    margin-bottom: 1em;
+}

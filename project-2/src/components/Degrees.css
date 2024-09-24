@@ -1,0 +1,29 @@
+/* Define CSS styles for degrees list item */
+.degreesListItem {
+    margin: 1em;
+    padding-top: 1em;
+    border: 3px solid #ddd;
+    border-radius: 15px;
+}
+
+/* Define CSS styles for degrees section */
+#degrees {
+    text-align: start;
+    border: 8px;
+    border-style: solid;
+    /* border-color: orangered; */
+    border-color: #f06617;
+    padding: 2em;
+}
+
+/* Define CSS styles for degrees header */
+#degrees-header {
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+    padding: 1em;
+}
+
+/* Define CSS styles for degrees content */
+.degrees-content {
+    margin: 1.5em;
+}

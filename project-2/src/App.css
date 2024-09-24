@@ -1,0 +1,152 @@
+/* Semantic UI messes up with the CSS - so I am adding this now */
+body {
+  display:block !important;
+  color: black;
+  background-color: white;
+}
+
+.App {
+  padding: 0 3vw 3vw;
+  background-color: whitesmoke;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 8em;
+  padding-right: 8em;
+}
+
+/* Sticky header styles */
+.sticky {
+  text-align: center;
+  position: sticky;
+  top: 0px;
+  margin: 0px;
+  background-color: #1b1c1d;
+  color: white;
+  padding: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 999;
+  /* Horizontal offset, vertical offset, blur radius, color with opacity */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.sticky > h1 {
+  margin: 0px;
+}
+
+.About {
+  text-align: start;
+}
+
+.About > h1 {
+  margin: 0px;
+}
+
+.aboutQuote {
+  padding: 2em;
+  background-color: rgb(230, 230, 230);
+  font-size: 15px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.iSchool_header {
+  padding: 5px;
+}
+
+#orange_loading_div {
+  text-align: center;
+  justify-content: center;
+}
+
+#RIT_2018_logo_Golisano_College_of_Computing_and_Information_Sciences {
+  width: 25em;
+}
+
+/* Navigation menu styles */
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* background-color: orangered; */
+  background-color: #f06617;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul #degrees-option, nav ul #employment-option {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Dropdown menu styles */
+nav ul #degrees-option a, nav ul #employment-option a {
+  color: #1b1c1d;
+  font-weight: bold;
+}
+
+li a:hover, nav ul li:hover {
+  color: #1b1c1d;
+  background-color: whitesmoke;
+
+}
+
+nav ul #degrees-option:hover, nav ul #employment-option:hover {
+  color: #1b1c1d;
+}
+
+#degrees-option .item, #employment-option .item {
+  font-weight: bold;
+}
+
+#degrees-option .menu.transition.visible, #employment-option .menu.transition.visible {
+  margin-top: 0.7em;
+  margin-left: -0.8em;
+  border-radius: 0%;
+}
+
+/* Minor adjustments for Semantic UI components */
+.ui.accordion .title:not(.ui) {
+  font-size: 18px !important;
+  font-weight: bold;
+}
+
+.css-1rwt2y5-MuiButtonBase-root-MuiButton-root, .minor-content .minor-courses-div div div button, .peopleListItem div button {
+    color: #1b1c1d !important;
+    font-weight: bold !important;
+    border: 2px !important;
+    border-style: solid !important;
+    /* border-color: orangered !important; */
+    border-color: #f06617 !important;
+}
+
+/* CSS styles for the scroll position line */
+.line {
+  height: 4px;
+  /* Gradient from dark brown orange like color to a more normal orange */
+  background: linear-gradient(to right, #7b5239, #f06617);
+  /* Smooth transition for the width change */
+  transition: width 0.3s;
+}
+
+/* Glow effect when scrolled */
+.glow {
+  box-shadow: 0 0 10px #ffa36c;   /* Add a glow effect using a box shadow with color #ffa36c */
+}

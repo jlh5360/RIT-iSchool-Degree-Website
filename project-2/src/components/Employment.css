@@ -1,0 +1,101 @@
+/* Define CSS styles for employment header */
+#employment-header {
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+    padding: 1em;
+}
+
+/* Define CSS styles for introduction content */
+.introduction-content-outter {
+    display: flex;
+    justify-content: center;
+}
+
+.introduction-content-inner {
+    padding: 1em;
+    text-align: start;
+    width: 50em;
+}
+
+.introduction-div {
+    text-align: center;
+}
+
+/* Define CSS styles for employment section */
+#employment {
+    text-align: start;
+    border: 8px;
+    border-style: solid;
+    /* border-color: orangered; */
+    border-color: #f06617;
+    padding: 2em;
+}
+
+/* Define CSS styles for introduction-degreeStatistics and employers-careers sections */
+#introduction-degreeStatistics-div, #employers-careers-div {
+    padding-bottom: 1em;
+}
+
+#degreeStatistics-div, #employers-div-inner, #careers-div-inner {
+    text-align: center;
+}
+
+#employers-careers-div {
+    display: flex;
+}
+
+.ui.cards {
+    display: flex;
+    justify-content: center;
+}
+
+#employers-careers-div .ui.cards .ui.card, .ui.card .content {
+    width: fit-content;
+    text-align: center;
+}
+
+.employers-careers-div {
+    flex: 1;
+    padding: 1em;
+    border: 4px solid #1b1c1d;
+}
+
+.employers-careers-header {
+    padding: 10px;
+    background-color: rgb(230, 230, 230);
+}
+
+/* Define CSS styles for degreeStatistics section */
+#degreeStatistics-div .ui.cards .ui.card .content .header {
+    /* color: orangered; */
+    color: #f06617;
+}
+
+#degreeStatistics-div .ui.cards .ui.card .content .description {
+    color: black;
+    font-weight: bold;
+}
+
+.degreeStatistics-cards .degreeStatistics-card {
+    display: block;
+}
+
+/* Define CSS styles for data grid */
+.data-grid {
+    text-align: center;
+    padding-top: 2em;
+}
+
+/* Define CSS styles for degreeStatistics header */
+.degreeStatistics-header {
+    font-weight: bold;
+}
+
+/* Define CSS styles for MuiDataGrid components */
+.MuiDataGrid-columnHeaderTitle.css-t89xny-MuiDataGrid-columnHeaderTitle {
+    font-weight: bold;
+}
+
+.MuiDataGrid-iconButtonContainer.css-ltf0zy-MuiDataGrid-iconButtonContainer {
+    margin-left: 1em;
+}
