@@ -7,3 +7,22 @@
 * Features simple navigation, progress tracking, and a professional design.
 
 Check the `README.md` files in the respective folders for further details
+
+[RIT iSchool Degree Website (using React)](https://people.rit.edu/~jlh5360/ISTE340/Projects/Project%202/)
+
+**Note:**  The ASP.NET Core Web App (Model-View-Controller) version must be run locally
+
+**Skills:**
+
+* Client Programming
+* ASP.NET MVC
+* Data Retrieval
+* JavaScript
+* HTML
+* React
+* ReactJS
+* APIs
+* CSS
+* Web Development
+* C#
+* React
